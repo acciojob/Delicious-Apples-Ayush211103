@@ -1,1 +1,35 @@
 /* your code here */
+*{
+	margin:0px;
+	padding:0px;
+	/* background-color:#10e37f; */
+	font-family:Arial, Helvetica,sans-serif;
+}
+.product{
+	background-color:#10e37f;
+}
+.photo-main{
+	background-color:#b9ea46;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	border-radius:4px 4px 0px 0px;
+}
+.controls{
+	color:white;
+}
+.fa{
+	margin:20px;
+	display:flex;
+	flex-wrap:wrap;
+	/* justify-content:right; */
+}
+.photo-album{
+	background-color:white;
+}
+.photo-album>ul>li{
+	border:1px solid black;
+}
+.title{
+	/* text-font:arial black; */
+}
